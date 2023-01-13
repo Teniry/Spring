@@ -16,7 +16,6 @@ public class Main {
         ConfigurableApplicationContext run = SpringApplication.run(Main.class, args);
         MyConfig bean = run.getBean(MyConfig.class);
         System.out.println(bean.student());
-        System.out.println(bean.type());
 
 
     }
